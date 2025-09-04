@@ -1,0 +1,97 @@
+<html>
+    <head>
+    </head>
+    <body>
+        안녕하세요! <br />
+        2025학년도 2학기 오픈소스 스튜디오 수업입니다!
+
+        <div attrname="값입니다.">
+            div태그입니다!
+        </div>
+
+        <h1> h1태그입니다.</h1>
+        <h2> h2태그입니다.</h2>
+        <h3> h3태그입니다.</h3>
+        <h4> h4태그입니다.</h4>
+        <h5> h5태그입니다.</h5>
+        <h6> h6태그입니다.</h6>
+
+        1. 목록을 표기하고 싶을때! >> ol 혹은 ul 사용!
+        <ol>
+            <li>내용</li>
+            <li>내용</li>
+            <li>내용</li>
+        </ol>
+
+        <ul>
+            <li>내용</li>
+            <li>내용</li>
+            <li>내용</li>
+        </ul>
+
+
+        2. 페이지 이동을 원할때! <br />
+        <a href="https://www.daum.net">
+            이것을 누르면 이동합니다. <br />
+        </a>
+        (href = Hypertext reference로 참조를 뜻함) <br /> <br />
+
+
+
+        3. css 관련 <br />
+        3-1) id, class 선언해보기 <br />
+            아이디는 html태그 안에서는 유니크해야함! 클래스는 같아도됨 <br />
+
+        <div id="div_01" class="div_normal"> 아이디랑 클래스?!</div>
+        <div id="div_02" class="div_normal"> 아이디랑 클래스?!</div>
+        <div id="div_03" class="div_normal"> 아이디랑 클래스?!</div>
+
+        3-2) 직접 설정하기 <br />
+        <div style="background-color: aquamarine;" > 스타일입니다.. </div>
+
+        3-3) 1개 혹은 여러개도 적용 가능하도록!
+        <style>
+            div {
+                color: blue;
+            }
+            #div_01{
+                background-color: burlywood;
+            }
+            #div_02{
+                background-color: red;
+            }
+            .div_normal {
+                font-size: 50px;
+            }
+        </style>
+
+        <br />
+        4. 보더 패딩 마진!
+        <div style="background-color: blueviolet; margin: 50px 10px 30px 0px; padding: 15px; border:1px solid red;">
+            보더 패딩 마진 각각 설정해보기!
+        </div>
+
+        실습예제 <br />
+        아이디가 div_bordertest인 div를 선언해주세요. <br />
+        그리고 보더 마진 패딩을 임의로 선언해보세요! <br />
+
+        <div id="div_bordertest">
+            test test!
+        </div>
+        <style>
+            #div_bordertest{
+                border: 5px solid blue;
+                padding: 40px;
+                margin: 100px 5px 100px 5px;
+                text-align: center;
+                font-size: 40px;
+                font-weight: 600;
+            }
+        </style>
+        
+
+
+
+
+    </body>
+</html>
